@@ -1,0 +1,1498 @@
+
+
+Started GET "/" for ::1 at 2015-07-13 20:26:50 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (2.7ms)
+Completed 200 OK in 20ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:39:26 +0800
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.3) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.3) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.3) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.3) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.3) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (52.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (134.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:39:26 +0800
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.3) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.3) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.3) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.3) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.3) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (98.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:41:20 +0800
+
+LoadError (Could not load 'active_record/connection_adapters/pg_adapter'. Make sure that the adapter in config/database.yml is valid. If you use an adapter other than 'mysql', 'mysql2', 'postgresql' or 'sqlite3' add the necessary adapter gem to the Gemfile.):
+  activesupport (4.2.3) lib/active_support/dependencies.rb:274:in `require'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:274:in `block in require'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:240:in `load_dependency'
+  activesupport (4.2.3) lib/active_support/dependencies.rb:274:in `require'
+  activerecord (4.2.3) lib/active_record/connection_adapters/connection_specification.rb:175:in `spec'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.3) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.3) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.3) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.3) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (44.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (103.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:41:49 +0800
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (108.8ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:41:49 +0800
+
+PG::ConnectionBad (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (87.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:42:26 +0800
+
+ActiveRecord::NoDatabaseError (FATAL:  database "asm_dev" does not exist
+):
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:665:in `rescue in connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (122.5ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:46:47 +0800
+
+ActiveRecord::NoDatabaseError (FATAL:  database "asm_dev" does not exist
+):
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:665:in `rescue in connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:655:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (110.3ms)
+  [1m[36m (26.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (2.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-07-13 20:47:41 +0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (21.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (13.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (94.3ms)
+
+
+Started GET "/welcome" for ::1 at 2015-07-13 20:47:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:47:57 +0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (96.7ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:50:14 +0800
+
+ActionController::RoutingError (uninitialized constant WelcomeController):
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.3) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:72:in `controller_reference'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:62:in `controller'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:41:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (42.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (97.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-13 20:52:58 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1623ms (Views: 1622.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 20:53:00 +0800
+
+
+Started GET "/" for ::1 at 2015-07-13 21:10:38 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 21:10:38 +0800
+
+
+Started GET "/" for ::1 at 2015-07-13 21:10:49 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 196ms (Views: 187.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-13 21:10:50 +0800
+
+
+Started GET "/form" for ::1 at 2015-07-13 21:20:37 +0800
+
+ActionController::RoutingError (No route matches [GET] "/form"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (107.8ms)
+
+
+Started GET "/form" for ::1 at 2015-07-13 21:24:18 +0800
+
+ActionController::RoutingError (No route matches [GET] "/form"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (76.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (55.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (108.3ms)
+
+
+Started GET "/forms" for ::1 at 2015-07-13 21:24:30 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for FormsController):
+  actionpack (4.2.3) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (43.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (94.1ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 21:27:37 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.3) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.3) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  actionpack (4.2.3) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:430:in `block in make_lambda'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:162:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:162:in `block in halting'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:502:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:502:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:502:in `each'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:502:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.3) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.3) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.3) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/jiarong/.rvm/rubies/ruby-2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (66.6ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe08acfb850 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe08acfb580 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe08acf82b8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 21:29:02 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb within layouts/mailer (12.5ms)
+
+Notifier#send_email: processed outbound mail in 28.4ms
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `job_title' for {:job_title=>"doctor"}:Hash):
+    4:   <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+    5: </head>
+    6: <body>
+    7: <h1>Job Title: <%= @form.job_title %>!</h1>
+    8: <p>End of feedback!</p>
+    9: </body>
+   10: </html>
+  app/views/notifier/send_email.erb:7:in `_app_views_notifier_send_email_erb__1730987318504879873_70301244539180'
+  app/mailers/notifier.rb:7:in `send_email'
+  app/controllers/forms_controller.rb:9:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.1ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fe08acfb850 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fe08acfb580 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fe08acf82b8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 21:29:45 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb within layouts/mailer (0.8ms)
+
+Notifier#send_email: processed outbound mail in 278.7ms
+
+Sent mail to jr.loves.maths@gmail.com (3871.6ms)
+Date: Mon, 13 Jul 2015 21:29:46 +0800
+From: forms@asm_website.com
+To: jr.loves.maths@gmail.com
+Message-ID: <55a3bd4a32f31_86ef3ff048248eac89452@JR-MBP.mail>
+Subject: Form feedback from ASM website.
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Job Title: doctor!</h1>
+<p>End of feedback!</p>
+</body>
+</html>
+  </body>
+</html>
+
+Completed 200 OK in 4172ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 21:51:39 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb within layouts/mailer (1.6ms)
+
+Notifier#send_email: processed outbound mail in 77.2ms
+
+Sent mail to jr.loves.maths@gmail.com (3272.0ms)
+Date: Mon, 13 Jul 2015 21:51:39 +0800
+From: forms@asm_website.com
+To: jr.loves.maths@gmail.com
+Message-ID: <55a3c26b66865_86ef3ff049375978895c2@JR-MBP.mail>
+Subject: Form feedback from ASM website.
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Job Title: doctor!</h1>
+<p>End of feedback!</p>
+</body>
+</html>
+  </body>
+</html>
+
+Completed 200 OK in 3381ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 21:56:18 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb within layouts/mailer (0.1ms)
+
+Notifier#send_email: processed outbound mail in 21.3ms
+
+Sent mail to jr.loves.maths@gmail.com (3308.6ms)
+Date: Mon, 13 Jul 2015 21:56:18 +0800
+From: forms@asm_website.com
+To: jr.loves.maths@gmail.com
+Message-ID: <55a3c3826db63_86ef3ff04939e0a889690@JR-MBP.mail>
+Subject: Form feedback from ASM website.
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Job Title: doctor!</h1>
+<p>End of feedback!</p>
+</body>
+</html>
+  </body>
+</html>
+
+Completed 200 OK in 3383ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 21:57:51 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb within layouts/mailer (0.1ms)
+
+Notifier#send_email: processed outbound mail in 17.6ms
+
+Sent mail to jr.loves.maths@gmail.com (3293.2ms)
+Date: Mon, 13 Jul 2015 21:57:51 +0800
+From: forms@asm_website.com
+To: jr.loves.maths@gmail.com
+Message-ID: <55a3c3df966e_86ef3ff0462844a4897d5@JR-MBP.mail>
+Subject: Form feedback from ASM website.
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Job Title: doctor!</h1>
+<p>End of feedback!</p>
+</body>
+</html>
+  </body>
+</html>
+
+Completed 200 OK in 3315ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:01:13 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb (0.3ms)
+
+Notifier#send_email: processed outbound mail in 16.5ms
+
+Sent mail to jr.loves.maths@gmail.com (3484.7ms)
+Date: Mon, 13 Jul 2015 22:01:13 +0800
+From: forms@asm_website.com
+To: jr.loves.maths@gmail.com
+Message-ID: <55a3c4a983362_86ef3ff0498080308985e@JR-MBP.mail>
+Subject: Form feedback from ASM website.
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Job Title: doctor!</h1>
+<p>End of feedback!</p>
+</body>
+</html>
+Completed 200 OK in 3521ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:06:16 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /Users/jiarong/Workspace/asm/app/controllers/forms_controller.rb:9)
+  Rendered notifier/send_email.erb (5.0ms)
+
+Notifier#send_email: processed outbound mail in 351.1ms
+
+Sent mail to jr.loves.maths@gmail.com (3711.1ms)
+Date: Mon, 13 Jul 2015 22:06:17 +0800
+From: forms@asm_website.com
+To: jr.loves.maths@gmail.com
+Message-ID: <55a3c5d9a6d72_8cff3fdf7f87ca7824625@JR-MBP.mail>
+Subject: Form feedback from ASM website.
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Job Title: doctor!</h1>
+<p>End of feedback!</p>
+</body>
+</html>
+Completed 200 OK in 4089ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:15:09 +0800
+
+LoadError (cannot load such file -- sendgrid-ruby):
+  app/controllers/forms_controller.rb:4:in `<class:FormsController>'
+  app/controllers/forms_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.4ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fbefa1d41e0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fbefc023e48 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fbefc020bf8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:15:30 +0800
+
+LoadError (cannot load such file -- sendgrid-ruby):
+  app/controllers/forms_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.5ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fbefa1d41e0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fbefc023e48 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fbefc020bf8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:16:47 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sendgrid-ruby):
+  app/controllers/forms_controller.rb:11:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.0ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fbefa1d41e0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fbefc023e48 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fbefc020bf8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:19:34 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 509ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:21:19 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 92ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:22:11 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 77ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 22:58:50 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SendGrid::Exception (api_user and api_key are required):
+  app/controllers/forms_controller.rb:12:in `new'
+  app/controllers/forms_controller.rb:12:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (101.9ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fde1d07ae10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fde1d07a758 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fde1d071fb8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:02:49 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+SendGrid::Exception (api_user and api_key are required):
+  app/controllers/forms_controller.rb:12:in `new'
+  app/controllers/forms_controller.rb:12:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.9ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fde1d07ae10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fde1d07a758 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fde1d071fb8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:03:06 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+SendGrid::Exception (api_user and api_key are required):
+  app/controllers/forms_controller.rb:12:in `new'
+  app/controllers/forms_controller.rb:12:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.7ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fde1d07ae10 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fde1d07a758 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fde1d071fb8 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:03:20 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SendGrid::Exception (api_user and api_key are required):
+  app/controllers/forms_controller.rb:12:in `new'
+  app/controllers/forms_controller.rb:12:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (74.8ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007ff612e486e8 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007ff612e48418 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007ff612e40bf0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:06:43 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 107ms (ActiveRecord: 0.0ms)
+
+SendGrid::Exception ({"errors":["Invalid from email address asm@asm_website.com"],"message":"error"}):
+  app/controllers/forms_controller.rb:33:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fb0eaa38f98 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb0eaa384a8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb0eaa30820 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:07:46 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 0.0ms)
+
+SendGrid::Exception ({"errors":["Invalid from email address asm@asm_website.com"],"message":"error"}):
+  app/controllers/forms_controller.rb:33:in `create'
+
+
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.1ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/jiarong/.rvm/gems/ruby-2.2.0@rails-4.2.3/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (95.2ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fb0eaa38f98 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fb0eaa384a8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fb0eaa30820 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:08:35 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 69ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:13:27 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 101ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/forms" for ::1 at 2015-07-13 23:14:22 +0800
+Processing by FormsController#create as */*
+  Parameters: {"job_title"=>"doctor"}
+Can't verify CSRF token authenticity
+Completed 200 OK in 82ms (Views: 0.2ms | ActiveRecord: 0.0ms)
